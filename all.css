@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+/*圖片不管多大都會控制在父層內*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*不計算padding 和 border*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*預設字體*/
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+
+}
+
+/* html mold */
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+.menu {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.menuLOGO {
+  font-size: 20px;
+  font-weight: 700;
+  color: #212529;
+  padding: 8px 12px;
+  margin-right: 48px;
+  position: relative;
+  z-index:1;
+}
+.menuLOGO::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #C0FA73; /* 圓點顏色 */
+    border-radius: 50%;        /* 讓它變成圓形 */
+    margin-right: 8px;         /* 與文字的間距 */
+    vertical-align: middle;    /* 垂直對齊文字 */
+    position: absolute;
+    top: 14px;
+    left: 86%;
+    z-index:-1;
+}
+
+.menuP{
+  font-weight: 500;
+  color: #212529;
+  padding: 12px 0px;
+  margin-right: 40px;
+}
+.menuP:hover{
+    color:#6C757D;
+    cursor: pointer;
+}
+.navBtn{
+    color: #212529;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+}
+
+.tips{
+    background-color: #E8FEC5;
+    padding: 24px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.tips p{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color:#212529;
+    display:inline-block;
+}
+.tipsBtn{
+background-color: #212529;
+color:#FFFFFF;
+font-weight: 500;
+padding: 12px 24px;
+border-radius: 8px;
+}
+.tipsBtn:hover{
+background-color: #495057;
+cursor: pointer;
+}
+footer{
+    padding: 64px 0px;
+    background-color: #F8F9FA;
+}
+.footerContent{
+padding-top: 32px;
+border-top: 1px solid #DEE2E6;
+text-align: center;
+}
+
+.footerContent p{
+    font-weight: 400;
+    font-size: 14px;
+    color:#6C757D;
+}
+main{
+    margin-bottom: 48px;
+}
+/* html mold */
+
+/* index */
+.linkList{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+.linkList a{
+font-weight: 500;
+color:#212529;
+}
+.linkList .linkListindex{
+    color:#6C757D;
+}
+.linkListindex:hover{
+    color:#57A203;
+}
+.linkList p{
+    color:#DEE2E6;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    color:#212529;
+    margin-bottom: 24px;
+}
+
+.itemList{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+.itemListLi1{
+    width: 15%;
+}
+.itemListLi2{
+    width: 83%;
+}
+
+.itemMenu{
+    padding-right: 24px;
+}
+.itemMenu li{
+    margin-bottom: 16px;
+}
+.itemMenu a{
+    font-weight: 500;
+    padding: 8px 0px;
+    color:#212529;
+}
+.itemMenu a:hover{
+    color:#57A203;
+}
+.itemMenu .itemMenuSelected{
+    color:#57A203;
+}
+.ProdustList{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+.ProdustList li{
+    width: 31%;
+}
+.pageBar{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.pageBar ul{
+    display: flex;
+    gap:8px;
+    justify-content: center;
+}
+
+.pageBar a{
+    font-weight: 500;
+    color:#212529;
+    display: block;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding: 8px 15px;
+}
+.pageBar a:hover{
+    background-color: #E9ECEF;
+}
+.pageBarSelected{
+    background-color: #C0FA73;
+}
+
+/* index */
