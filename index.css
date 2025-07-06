@@ -1,0 +1,107 @@
+/* index */
+main{
+    margin-bottom: 48px;
+}
+.linkList{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+.linkList a{
+font-weight: 500;
+color:#212529;
+}
+.linkList .linkListindex{
+    color:#6C757D;
+}
+.linkListindex:hover{
+    color:#57A203;
+}
+.linkList p{
+    color:#DEE2E6;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    color:#212529;
+    margin-bottom: 24px;
+}
+
+.itemList{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+.itemListLi1{
+    width: 15%;
+}
+.itemListLi2{
+    width: 83%;
+}
+
+.itemMenu{
+    padding-right: 24px;
+}
+.itemMenu li{
+    margin-bottom: 16px;
+}
+.itemMenu a{
+    font-weight: 500;
+    padding: 8px 0px;
+    color:#212529;
+}
+.itemMenu a:hover{
+    color:#57A203;
+}
+.itemMenu .itemMenuSelected{
+    color:#57A203;
+}
+.ProdustList{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+.ProdustList li{
+    width: 31%;
+}
+.produstTitle{
+    font-weight: 700;
+    line-height: 1.2;
+    color:#212529
+}
+.produstPrice{
+    font-weight: 500;
+    color:#212529
+}
+.pageBar{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.pageBar ul{
+    display: flex;
+    gap:8px;
+    justify-content: center;
+}
+
+.pageBar a{
+    font-weight: 500;
+    color:#212529;
+    display: block;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding: 8px 15px;
+}
+.pageBar a:hover{
+    background-color: #E9ECEF;
+}
+.pageBarSelected{
+    background-color: #C0FA73;
+}
+
+/* index */
